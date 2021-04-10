@@ -130,8 +130,8 @@ Next, let's add the few lines of code we need in order to register a user right 
 	  formData.password,
 	  serverUrl
 	);
-	alert(`The server response is: ${etebaseUser}`)
-setData({
+	alert(`Your user has been created!`)
+	setData({
 ```
 
 This should be all we need to add a user. Enter a username, email and password, press the Submit button, and you should see an alert pop-up confirming that the user has been created.
